@@ -1,7 +1,7 @@
 const request = require('request');
 const WebSocketClient = require('websocket').client;
 
-const TOKEN = '535023f2535023f2535023f22c530bb24a55350535023f20baf442e104e016026a3d5fa';
+const TOKEN = 'YOUR_SERVICE_APP_KEY'; // Get it on your VK App settings page
 
 class VKStream {
     constructor( access_token ) {
