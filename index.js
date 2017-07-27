@@ -21,6 +21,8 @@ class VKStream {
 
             // Add some rules
             this.addRule('машина', 'car_tag');
+            this.addRule('hyundai', 'hyundai_tag');
+            this.addRule('bmw', 'bmw_tag');
         });
     }
 
